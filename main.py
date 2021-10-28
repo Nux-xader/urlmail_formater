@@ -39,8 +39,17 @@ def preperate():
 def email():
 	data, saveto = preperate()
 
+
 def url():
-	data, saveto = preperate()
+	datas, saveto = preperate()
+	for data in datas:
+		if "|" in data:
+			node = data.split("|")
+			data = data.replace(node[0], "").replace(node[-1], "")
+		else:
+			node = data.split("//")[-1].split("/")
+			data = data.replace(node[0], "").replace(node[-1], "").replace("/", "|")
+		open(saveto, "a").write(data)
 
 
 def main():
