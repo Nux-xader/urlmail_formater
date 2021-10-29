@@ -37,7 +37,13 @@ def preperate():
 
 
 def email():
-	data, saveto = preperate()
+	datas, saveto = preperate()
+	for data in datas:
+		if "|" in data:
+			open(saveto, "a").write(data)
+		else:
+			open("invalid_url.txt", "a").write(data)
+
 
 
 def url():
@@ -45,11 +51,12 @@ def url():
 	for data in datas:
 		if "|" in data:
 			node = data.split("|")
-			data = data.replace(node[0], "").replace(node[-1], "")
+			data = data.replace(node[0]+"|", "").replace("|"+node[-1], "")
+			open(saveto, "a").write(data)
 		else:
-			node = data.split("//")[-1].split("/")
-			data = data.replace(node[0], "").replace(node[-1], "").replace("/", "|")
-		open(saveto, "a").write(data)
+			open("invalid_url.txt", "a").write(data)
+			# node = data.split("//")[-1].split("/")
+			# data = data.replace(node[0], "").replace(node[-1], "").replace("/", "|")
 
 
 def main():
