@@ -19,7 +19,7 @@ def preperate():
 	while True:
 		try:
 			path = str(input(" File : "))
-			file = open(path, "r").read().split("\n")
+			file = [x for x in open(path, "r").read().split("\n") if len(x) > 5 and x.count('|') > 2]
 			break
 		except:
 			print(f" [!] File {path} not found")
@@ -40,9 +40,12 @@ def email():
 	datas, saveto = preperate()
 	for data in datas:
 		if "|" in data:
-			open(saveto, "a").write(data)
+			data = "|".join(data.split("|")[-2:])
+			open(saveto, "a").write(data+"\n")
 		else:
-			open("invalid_url.txt", "a").write(data)
+			open("invalid_url.txt", "a").write(data+"\n")
+
+	input(f" [+] Result was saved to {saveto}\n [Press Enter to Continue]")
 
 
 
@@ -52,12 +55,13 @@ def url():
 		if "|" in data:
 			node = data.split("|")
 			data = data.replace(node[0]+"|", "").replace("|"+node[-1], "")
-			open(saveto, "a").write(data)
+			open(saveto, "a").write(data+"\n")
 		else:
-			open("invalid_url.txt", "a").write(data)
+			open("invalid_url.txt", "a").write(data+"\n")
 			# node = data.split("//")[-1].split("/")
 			# data = data.replace(node[0], "").replace(node[-1], "").replace("/", "|")
 
+	input(f" [+] Result was saved to {saveto}\n [Press Enter to Continue]")
 
 def main():
 	while True:

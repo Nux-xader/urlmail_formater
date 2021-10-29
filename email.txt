@@ -1,0 +1,10 @@
+http://3.23.18.226/.env|email-smtp.us-east-2.amazonaws.com|587|AKIATNJPY47JCBCKEQML|BOxPFbwQaGF7v5WrGRm2mGB3LVMKK2b7lI/NeeocW+OD
+http://3.25.70.122/.env|email-smtp.ap-southeast-2.amazonaws.com|25|AKIAULMP6HTMGKVNBCHN|BNpZkpi+t6QKwKCAdiehqAYdqF33nIpayBduq16EduG0
+http://domain|email-smtp.us-east-1.amazonaws.com|25|AKIAVDVH4AK6R5T5AQEB|BCjZTFjEzuU7VnMvXUmBmUPRqnv7s8uQF5wkRtBELgCK
+http://184.73.223.83|email-smtp.us-east-1.amazonaws.com|587|AKIA4RSOLK67DYKMZTXY|BKCzfVrFG7WXKPEnvpG/RtBskKAy5jyy5S+eYBhR27Ms
+http://3.37.78.122|email-smtp.us-west-2.amazonaws.com|587|AKIAI4MCTEUJKC2PMWPQ|kWa+FRc27Qu3TWQ40HgZYpd7LTt2Rx9w+OZAvoCC
+http://54.66.73.215|email-smtp.ap-southeast-2.amazonaws.com|587|AKIATNWQG7X5MCKNO6WJ|BMA0JJdr2cHXTv8DniUSeYYAaa7k5Uq6Bq+UwPPEagDj
+http://54.74.114.224/.env|email-smtp.eu-west-1.amazonaws.com|587|AKIAUYTQIAAXCMTRDFNS|BPuF+wI+KA6VT/j51y+cIXUbCy9Wli/JN+wd1P7LaNiM
+http://3.80.233.211/.env|email-smtp.us-east-1.amazonaws.com|587|AKIAJMOSWGDHMUES4OGA|AnSGvQCrCJwb7J1RAq0oIJSXMMhWoMCodAilXBbqq22Z
+http://3.81.148.1/local/.env|email-smtp.us-east-1.amazonaws.com|587|AKIAR4HYYU2DE56MZNCQ|BOFfGxzCgc8/ozPtUUNT/pvUQp/fF+2tNj920l32LA1X
+http://3.84.8.160/.env|email-smtp.us-east-1.amazonaws.com|587|AKIAX5226OQ35ANYVN6P|BFuPu/kJRY3dCAZWS39sd/jitLJHBVwqqZoxiOqHVBrh

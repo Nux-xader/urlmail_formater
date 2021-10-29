@@ -1,0 +1,7 @@
+http://99.83.145.62/.env|AKIA356RYYEH2GBMTXFJ|vzrNiiXdhP5nRDTUawuwhurl/3299P95dQy7sYDe|us-west-2
+http://184.73.57.127|AKIAJWHKFSRYP4K5FASQ|6RJabtqlryE9ybkT224U/FexrLWGgBYBqUSMtRl1|us-east-1
+http://54.232.242.119/api/.env|AKIA4X4WOXMUIY746PPV|EnpwdFtyEuQ13t42EYDPPHe2FkH2FhDsJebYSE19|sa-east-1
+http://52.20.151.137/backend/.env|AKIAZYFGKH4WE7Y6OUM4|/6PMpzneYbWLQEviP7cDw3lHgTAxSQhLITK6nhc7|ap-southeast-1
+http://3.7.169.2/admin/.env|AKIAVN4IKLGK6FA7LYJ6|KlhMVuJCjPxgmQ4XU8zshe+Hl5gOyl1APuZJ5rgv|ap-south-1
+http://boskitchen.app|AKIATHXDYILZKYNGEZGV|kWV1hSbc2vnIkrRSsmEdIaBQPnAWayjLp+s/rTyk|eu-west-2
+http://brandsbanned.app/.env|AKIAJBM3BSQHJTYWFLTA|KZncDnjsbkhxn7Ufo0dIio9jCOz2Sdivsl8qR9KU|us-east-1
